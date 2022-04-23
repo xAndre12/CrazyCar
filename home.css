@@ -1,0 +1,48 @@
+body{
+    background-image:url(/img/unknown.png) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.masina{
+    position: absolute;
+   
+}
+img{
+    width: 275px;
+    height: 125px;
+}
+.je{
+    height: 50px;
+    width:50px;
+    margin-top:50px;
+    transform:rotate(90deg);
+    cursor:pointer;
+}
+.je1{
+    height: 50px;
+    width:50px;
+    margin-bottom: 50px;
+    transform:rotate(180deg);
+    cursor:pointer;
+}
+.je2{
+    height: 50px;
+    width:50px;
+    transform:rotate(-90deg);
+    cursor:pointer;
+}
+.je3{
+    height: 50px;
+    width:50px;
+    margin-left:54px;
+    cursor:pointer;
+}
+.container-arrow{
+    /* background-color:red; */
+   width: 180px;
+   position:absolute;
+   bottom:0;
+   right:50px;
+}
